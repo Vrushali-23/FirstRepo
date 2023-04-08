@@ -1,0 +1,20 @@
+pipeline{
+	agent any
+	stages{
+	    stage('One'){
+	    steps{
+		echo'hii,welcome to demo'
+	    }
+	    }
+	    stage('Two')
+	    steps{
+		echo'sample testing 1'
+	    }
+	    }
+	    stage('Three')
+	    steps{
+		echo'thank you'
+	    }
+	    }
+	}
+	}
