@@ -14,7 +14,17 @@ pipeline {
         }
         stage('Three') {
             steps {
-                echo 'Thanks for using Jenkins'
+                echo 'Sample Testing Stage 3'
+            }
+        }
+        stage('Four') {
+            steps {
+                echo 'Sample Testing Stage 4'
+            }
+        }
+        stage('Five') {
+            steps {
+                echo 'Sample Testing Stage 5'
             }
         }
     }
